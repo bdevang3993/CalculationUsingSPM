@@ -1,11 +1,4 @@
-//
-//  CalculationOperation.swift
-//  CalculationOperation
-//
-//  Created by apple on 02/06/26.
-//
-
-import Foundation
+mport Foundation
 
 public final class calculator {
     
