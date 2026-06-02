@@ -1,11 +1,19 @@
-mport Foundation
+//
+//  calculator.swift
+//  CalculationSPM
+//
+//  Created by apple on 02/06/26.
+//
+
+
+import Foundation
 
 public final class calculator {
     
    private init () {
         
     }
-  static public let shared = calculator()
+    @MainActor static public let shared = calculator()
     
     
     public func add(a: Int, b: Int) -> Int {
